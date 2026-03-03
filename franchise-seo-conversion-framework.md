@@ -22,11 +22,11 @@
 
 ## Executive Summary
 
-Special Strong's expansion from 25 to 700 locations represents a 28x growth trajectory that requires a scalable, systematic approach to local SEO and conversion optimization. This framework provides:
+Special Strong's expansion from 25 to 700 locations represents a 28x growth trajectory that requires a scalable, systematic approach to local Search Engine Optimization (SEO) and conversion optimization. This framework provides:
 
 - **SEO Infrastructure** that scales without creating duplicate content penalties
 - **Conversion-Optimized Templates** grounded in MECLABS behavioral research
-- **GBP Management Systems** for maintaining quality across 700 profiles
+- **Google Business Profile (GBP) Management Systems** for maintaining quality across 700 profiles
 - **Corporate/Local Balance** that preserves brand while enabling local relevance
 - **Measurement Framework** for attribution across distributed locations
 
@@ -91,7 +91,7 @@ If the result is less than 2, re-craft your offer.
 - **Incentive:** Free trial class, free assessment, downloadable guide
 - **Friction:** Form length, page load speed, unclear next steps
 
-**Research Finding:** Conversion Sciences found that bullet-pointing benefits increased click-through by 15.8% vs. block text. Action-oriented CTA copy ("Start My Free Trial" vs. "Submit") increased clicks by 31%.
+**Research Finding:** Conversion Sciences found that bullet-pointing benefits increased click-through by 15.8% vs. block text. Action-oriented Call-to-Action (CTA) copy ("Start My Free Trial" vs. "Submit") increased clicks by 31%.
 
 **Source:** [Conversion Sciences Landing Page Best Practices](https://conversionsciences.com/landing-page-best-practices/)
 
@@ -216,7 +216,7 @@ Based on MECLABS research, Google's structured data guidelines, and conversion b
 - Local partnerships (schools, therapy centers, hospitals)
 - Local events or programs
 
-**Section 5: FAQ (Schema-Marked)**
+**Section 5: Frequently Asked Questions (FAQ) (Schema-Marked)**
 - Location-specific hours
 - Parking information
 - First visit expectations
@@ -354,7 +354,7 @@ to ensuring every family has an exceptional experience.
 |----------|-------------|-------|
 | GBP Management | Yext, BrightLocal, Rio SEO | Enterprise-grade for 700+ locations |
 | Review Generation | Podium, Birdeye, ReviewTrackers | Automated request systems |
-| Listing Sync | Yext Active Sync, BrightLocal | Maintain NAP consistency |
+| Listing Sync | Yext Active Sync, BrightLocal | Maintain Name, Address, Phone (NAP) consistency |
 | Reporting | BrightLocal, AgencyAnalytics | Per-location dashboards |
 
 ---
@@ -527,7 +527,7 @@ need it most."
 ```
 Franchisee Submits Content
          ↓
-Regional Manager Review (48hr SLA)
+Regional Manager Review (48hr Service Level Agreement (SLA))
          ↓
     [Approved?]
     YES → Published
@@ -551,12 +551,12 @@ Regional Manager Review (48hr SLA)
 
 ## Measurement & Attribution
 
-### KPI Framework by Level
+### Key Performance Indicator (KPI) Framework by Level
 
 **Corporate Level:**
 | Metric | Target | Measurement Frequency |
 |--------|--------|----------------------|
-| Total organic leads | +20% YoY | Monthly |
+| Total organic leads | +20% Year-over-Year (YoY) | Monthly |
 | Average location ranking (local pack) | Position 1-3 | Monthly |
 | Brand search volume | +15% YoY | Quarterly |
 | Site-wide conversion rate | 5%+ | Monthly |
@@ -595,7 +595,7 @@ Conversion: Membership Signup
 2. **Form Tracking:** Hidden field capture for source/medium
 3. **GBP Insights:** Export monthly for each location
 4. **Google Analytics 4:** Event tracking for all CTAs
-5. **CRM Integration:** Closed-loop reporting to tie leads to revenue
+5. **Customer Relationship Management (CRM) Integration:** Closed-loop reporting to tie leads to revenue
 
 ### Reporting Cadence
 
