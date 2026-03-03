@@ -1,4 +1,4 @@
-# Service Area Business (SAB) & Mobile Franchise Local SEO Strategy
+# Service Area Business (SAB) & Mobile Franchise Local Search Engine Optimization (SEO) Strategy
 
 ## Research Document for Special Strong Franchise Network
 
@@ -23,7 +23,7 @@
 
 ## Executive Summary
 
-Service Area Businesses (SABs) face unique local SEO challenges compared to traditional storefronts. For Special Strong's franchise model—where trainers operate from home and deliver services at third-party gyms like Planet Fitness or Crunch—understanding these nuances is critical for visibility and lead generation.
+Service Area Businesses (SABs) face unique local SEO challenges compared to traditional storefronts. Understanding how to optimize your Google Business Profile (GBP) and manage Name, Address, Phone Number (NAP) citations is critical for success. For Special Strong's franchise model—where trainers operate from home and deliver services at third-party gyms like Planet Fitness or Crunch—understanding these nuances is critical for visibility and lead generation.
 
 ### Key Findings
 
@@ -104,7 +104,7 @@ Google's local algorithm heavily weights proximity—the distance between search
 | **On-Page SEO** | 16% | **Higher** | Need stronger website signals |
 | **Links** | 13% | **Higher** | More important for organic |
 | **Citations** | 7% | 7% | Similar, but execution differs |
-| **Behavioral** | 6% | 6% | CTR, engagement |
+| **Behavioral** | 6% | 6% | Click-through rate (CTR), engagement |
 | **Proximity** | **High** | **Lower** | SABs disadvantaged here |
 
 **Source:** BrightLocal Local Search Ranking Factors Survey (referenced in Moz)
@@ -191,7 +191,7 @@ SABs often struggle to appear in the coveted 3-pack. Alternative visibility stra
 
 ### 2. Google Local Services Ads (LSAs)
 
-**Source:** [Google LSA Documentation](https://ads.google.com/local-services-ads/)
+**Source:** [Google Local Services Ads Documentation](https://ads.google.com/local-services-ads/)
 
 - Available for many service businesses
 - Appear ABOVE map pack
@@ -212,7 +212,7 @@ Key statistics for SAB strategy:
 - **31% require 4.5+ stars** (up from 17% in 2025)
 
 **SAB Review Strategy:**
-1. Implement post-session review requests (SMS/email)
+1. Implement post-session review requests (text message/email)
 2. Train franchisees on review solicitation
 3. Respond to ALL reviews within 24-48 hours
 4. Aim for 30+ reviews per location minimum
@@ -232,7 +232,7 @@ Video platforms growing for local discovery:
 - Share client testimonials on video
 - Optimize for local keywords in titles/descriptions
 
-### 5. AI Search Optimization
+### 5. Artificial Intelligence (AI) Search Optimization
 
 **Source:** BrightLocal 2026 Survey
 
@@ -242,7 +242,7 @@ Video platforms growing for local discovery:
 - Ensure website content is comprehensive (AI scrapes websites)
 - Maintain accurate listings across directories (AI uses aggregated data)
 - Generate positive reviews on multiple platforms (AI considers reputation)
-- Create FAQ content addressing common queries
+- Create Frequently Asked Questions (FAQ) content addressing common queries
 
 ---
 
@@ -532,7 +532,7 @@ Page Elements:
    - [ ] Create review response templates
    - [ ] Target: 5+ reviews in first month
 
-### KPIs for SAB Locations
+### Key Performance Indicators (KPIs) for SAB Locations
 
 | Metric | Target | Measurement Frequency |
 |--------|--------|----------------------|

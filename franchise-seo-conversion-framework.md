@@ -11,12 +11,13 @@
 3. [Multi-Location SEO Strategy](#multi-location-seo-strategy)
 4. [Location Page Architecture & Template](#location-page-architecture--template)
 5. [Google Business Profile Management at Scale](#google-business-profile-management-at-scale)
-6. [Avoiding Duplicate Content](#avoiding-duplicate-content)
-7. [Conversion Optimization Playbook](#conversion-optimization-playbook)
-8. [Corporate vs. Local Execution Guidelines](#corporate-vs-local-execution-guidelines)
-9. [Measurement & Attribution](#measurement--attribution)
-10. [Implementation Roadmap](#implementation-roadmap)
-11. [Sources & Citations](#sources--citations)
+6. [Service Area Business (SAB) Strategy for Home-Based Franchisees](#service-area-business-sab-strategy-for-home-based-franchisees)
+7. [Avoiding Duplicate Content](#avoiding-duplicate-content)
+8. [Conversion Optimization Playbook](#conversion-optimization-playbook)
+9. [Corporate vs. Local Execution Guidelines](#corporate-vs-local-execution-guidelines)
+10. [Measurement & Attribution](#measurement--attribution)
+11. [Implementation Roadmap](#implementation-roadmap)
+12. [Sources & Citations](#sources--citations)
 
 ---
 
@@ -356,6 +357,126 @@ to ensuring every family has an exceptional experience.
 | Review Generation | Podium, Birdeye, ReviewTrackers | Automated request systems |
 | Listing Sync | Yext Active Sync, BrightLocal | Maintain Name, Address, Phone (NAP) consistency |
 | Reporting | BrightLocal, AgencyAnalytics | Per-location dashboards |
+
+---
+
+## Service Area Business (SAB) Strategy for Home-Based Franchisees
+
+Many Special Strong franchisees operate from home and train clients at third-party facilities (Planet Fitness, Crunch, etc.). This creates unique local SEO challenges requiring a different approach than traditional storefronts.
+
+### Critical Compliance Requirements
+
+**⚠️ You CANNOT use the third-party gym's address as your business location.** This violates Google's guidelines and risks profile suspension.
+
+**Source:** [Google Business Profile Address Guidelines](https://support.google.com/business/answer/2853879)
+
+**Required Setup for Home-Based Franchisees:**
+- Set up as a Service Area Business (SAB)
+- Hide your home address (verified but not displayed)
+- Define service area by cities or zip codes (up to 20 areas, within 2-hour driving radius)
+
+### SAB vs. Storefront: Ranking Implications
+
+| Factor | Storefront | SAB | Impact |
+|--------|-----------|-----|--------|
+| Map Pack Visibility | Address pin displayed | No pin (service area only) | SABs disadvantaged |
+| Proximity Signal | Strong (exact location) | Weaker (area centroid) | SABs rank lower for "near me" |
+| Review Importance | High | **Critical** | Must compensate with social proof |
+| Organic SEO Reliance | Standard | **Higher** | Website must work harder |
+
+**Source:** [Moz Local Search Ranking Factors](https://moz.com/learn/seo/local-ranking-factors)
+
+### Compensation Strategies for SABs
+
+Since SABs are disadvantaged in the map pack, they must excel elsewhere:
+
+1. **Aggressive Review Generation**
+   - Target: 30+ reviews minimum (47% of consumers won't use businesses with fewer than 20)
+   - Velocity: 5+ new reviews per month
+   - Rating: 4.7+ stars (31% require 4.5+ stars)
+   
+2. **Heavy Organic SEO Investment**
+   - Location-specific service pages with unique content
+   - Target "[service] in [city]" keywords
+   - Build local links through community involvement
+
+3. **Video Content Priority**
+   - Training session highlights (with consent)
+   - Client transformation stories
+   - Optimize for local keywords in titles/descriptions
+
+4. **Google Local Services Ads (LSAs)**
+   - Appear ABOVE map pack
+   - Pay-per-lead model
+   - "Google Guaranteed" badge builds trust
+
+**Source:** [BrightLocal Local Consumer Review Survey 2026](https://www.brightlocal.com/research/local-consumer-review-survey/)
+
+### Multiple Franchisees in Same Metro Area
+
+When multiple SAB franchisees operate in the same metro:
+
+**Territory Partitioning Required:**
+```
+Example: Dallas-Fort Worth Metro
+
+Franchisee A: "Special Strong - North Dallas"
+- Service Area: Plano, Frisco, Allen, McKinney
+- Exclusive Zip Codes: 75001, 75002, 75023, 75024, 75025
+
+Franchisee B: "Special Strong - Arlington"
+- Service Area: Arlington, Grand Prairie, Irving
+- Exclusive Zip Codes: 76001, 76002, 76010, 76011
+```
+
+**Same Third-Party Gym, Different Franchisees:**
+- Both remain SABs with hidden addresses
+- Each gets exclusive zip code territories
+- Unique phone numbers required
+- Unique location pages with different content
+- Reviews will naturally mention different service areas
+
+### SAB-Specific GBP Setup Checklist
+
+- [ ] Business type: Service Area Business (NOT storefront)
+- [ ] Address: Hidden (use home for verification only)
+- [ ] Service area: Specific cities/zip codes assigned to this franchisee
+- [ ] Phone: Unique local number (not shared)
+- [ ] Website URL: Location-specific page (specialstrong.com/locations/[city])
+- [ ] Categories: Personal Trainer (primary), Physical Fitness Program
+- [ ] Photos: Unique to this franchisee (not gym stock photos)
+- [ ] Posts: Weekly updates specific to this location
+
+### Schema Markup for SAB Locations
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Special Strong - North Dallas",
+  "url": "https://specialstrong.com/locations/north-dallas",
+  "telephone": "+1-555-123-4567",
+  "areaServed": [
+    {"@type": "City", "name": "Plano"},
+    {"@type": "City", "name": "Frisco"},
+    {"@type": "City", "name": "Allen"}
+  ],
+  "priceRange": "$$"
+}
+```
+
+Note: No `address` field - use `areaServed` instead for SABs.
+
+### Hybrid Model: Storefronts + SABs
+
+Special Strong's franchise network includes both:
+
+| Location Type | GBP Setup | SEO Priority | Review Target |
+|--------------|-----------|--------------|---------------|
+| Physical Studio | Storefront (address displayed) | Map pack + organic | 30+ reviews |
+| Home-Based/Mobile | SAB (address hidden) | Organic-heavy | 40+ reviews |
+
+**Source:** [Google SAB Guidelines](https://support.google.com/business/answer/9157481)
 
 ---
 
